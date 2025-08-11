@@ -18,3 +18,8 @@ The bot uses **DeepFace** for emotion recognition, **speech recognition** for vo
 ---
 
 ## 📂 Project Structure
+.
+├── output.csv # Contains face embeddings, clusters, and predefined messages
+├── main.py # Main program file
+└── README.md # Project documentation
+
