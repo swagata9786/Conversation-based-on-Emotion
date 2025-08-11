@@ -22,8 +22,8 @@ The bot uses **DeepFace** for emotion recognition, **speech recognition** for vo
 
 ## 🛠️ Installation
 ```bash
-git clone https://github.com/<your-username>/<your-repo>.git
-cd <your-repo>
+git clone https://github.com/swagata9786/Conversation-based-on-Emotion.git
+cd Conversation-based-on-Emotion
 pip install opencv-python deepface pyttsx3 SpeechRecognition pandas gTTS playsound scikit-learn numpy google-generativeai langdetect googletrans==4.0.0-rc1
 
 
