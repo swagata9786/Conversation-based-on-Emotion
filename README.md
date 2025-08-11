@@ -18,12 +18,14 @@ The bot uses **DeepFace** for emotion recognition, **speech recognition** for vo
 ---
 
 
----
-
 ## 🛠️ Installation
 ```bash
 git clone https://github.com/swagata9786/Conversation-based-on-Emotion.git
 cd Conversation-based-on-Emotion
 pip install opencv-python deepface pyttsx3 SpeechRecognition pandas gTTS playsound scikit-learn numpy google-generativeai langdetect googletrans==4.0.0-rc1
 
+## 🔑 API Key Setup
+Get a Google Gemini API key from [Google AI Studio](https://aistudio.google.com/) and replace in `main.py`:
+```python
+GEMINI_API_KEY = "YOUR_API_KEY"
 
