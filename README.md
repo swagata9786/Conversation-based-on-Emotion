@@ -26,6 +26,6 @@ pip install opencv-python deepface pyttsx3 SpeechRecognition pandas gTTS playsou
 
 ## 🔑 API Key Setup
 Get a Google Gemini API key from [Google AI Studio](https://aistudio.google.com/) and replace in `main.py`:
-```python
+```bash
 GEMINI_API_KEY = "YOUR_API_KEY"
 
