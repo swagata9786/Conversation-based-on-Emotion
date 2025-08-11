@@ -31,6 +31,6 @@ GEMINI_API_KEY = "YOUR_API_KEY"
 ```
 ## 🚀 Usage
 ```
-python main.py
+python emotion_detector.py
 ```
 Press Q to quit.
