@@ -26,9 +26,9 @@ csv_path = get_resource_path("output.csv")
 response_df = pd.read_csv(csv_path)
 
 # === SET YOUR GEMINI API KEY HERE ===
-GEMINI_API_KEY = "AIzaSyCbMtuuJ3djXaOzoyXeum6hEA0LIdpXv0k"  
+GEMINI_API_KEY = "YOUR_API_KEY"  
 genai.configure(api_key=GEMINI_API_KEY)
-gemini_model = genai.GenerativeModel(model_name="gemini-1.5-flash")
+gemini_model = genai.GenerativeModel(model_name="YOUR_API_MODEL")
 
 # === Text-to-Speech Setup ===
 engine = pyttsx3.init()
@@ -204,5 +204,6 @@ while True:
 
 cap.release()
 cv2.destroyAllWindows()
+
 
 
