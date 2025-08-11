@@ -17,9 +17,13 @@ The bot uses **DeepFace** for emotion recognition, **speech recognition** for vo
 
 ---
 
-## 📂 Project Structure
-.
-├── output.csv # Contains face embeddings, clusters, and predefined messages
-├── main.py # Main program file
-└── README.md # Project documentation
+
+---
+
+## 🛠️ Installation
+```bash
+git clone https://github.com/<your-username>/<your-repo>.git
+cd <your-repo>
+pip install opencv-python deepface pyttsx3 SpeechRecognition pandas gTTS playsound scikit-learn numpy google-generativeai langdetect googletrans==4.0.0-rc1
+
 
