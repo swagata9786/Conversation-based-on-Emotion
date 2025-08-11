@@ -29,3 +29,8 @@ Get a Google Gemini API key from [Google AI Studio](https://aistudio.google.com/
 ```
 GEMINI_API_KEY = "YOUR_API_KEY"
 ```
+## 🚀 Usage
+```
+python main.py
+```
+Press Q to quit.
